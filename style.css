@@ -22,7 +22,7 @@ body {
 /* Header */
 header {
     background-color: #000000;
-    border: 3px solid #00ff00;
+    border: none;
     padding: 40px 30px 30px 30px;
     text-align: left;
     color: #00ff00;
@@ -75,7 +75,8 @@ header h1 {
 /* Navigation */
 nav {
     background-color: #000000;
-    border: 2px solid #00ff00;
+    border: none;
+    border-bottom: 1px solid #00ff00;
     position: sticky;
     top: 0;
     z-index: 100;
@@ -119,7 +120,7 @@ main {
     background-color: #000000;
     margin: 20px auto;
     padding: 30px;
-    border: 3px solid #00ff00;
+    border: none;
 }
 
 section {
@@ -446,7 +447,7 @@ footer {
     text-align: left;
     padding: 30px;
     margin-top: 40px;
-    border: 3px solid #00ff00;
+    border-top: 1px solid #00ff00;
 }
 
 footer p {
